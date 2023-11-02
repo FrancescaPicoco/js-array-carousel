@@ -12,14 +12,22 @@ body{
     width: 70vw;
     height: 70vh;
     transform: translate(20% , 20%);
+    background-color: whitesmoke;
 }
-.wrapper img{
+#picsHere img{
     width: 100%;
     height: 100%;
     object-fit: contain;
     display: none;
 }
-.wrapper img.visible{
+#right img{
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+#picsHere img.visible{
     display: block;
 }
 #previous, #next {
@@ -61,12 +69,14 @@ body{
     background-color: black;
     width: 20%;
   }
-  #imgpic{
-    width: 100%;
+  #picsHere{
+    width: 80%;
+    height: 100%;
     background-color: blueviolet;
   }
   #right{
-    width:30%;
+    width:20%;
+    height: 100%;
     background-color: aquamarine;
   }
   
