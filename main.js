@@ -38,3 +38,7 @@ document.getElementById("previous").addEventListener("click" , function(params) 
         pics[current].classList.add("visible");
     }
 })
+document.querySelectorAll("roundBtn").addEventListener("click" , function(params) {
+    
+    
+})
