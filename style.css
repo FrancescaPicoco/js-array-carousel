@@ -1,5 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto' , sans-serif;
+    background-color:rgb(37, 40, 42);
+}
 .wrapper{
-    background-color: black;
     margin-top: 20vh;
     width: 70vw;
     height: 60vh;
@@ -8,4 +16,8 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    display: none;
+}
+.visible{
+    display: block;
 }
