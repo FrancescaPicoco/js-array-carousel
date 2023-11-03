@@ -23,6 +23,7 @@ document.getElementById("next").addEventListener("click" , function(params) {
         pics[current].classList.remove("visible");
         sidePics[currentSide].classList.remove("opacity");
         current++;
+        currentSide++;
         console.log(current)
         pics[current].classList.add("visible");
         sidePics[currentSide].classList.add("opacity");
