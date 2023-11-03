@@ -61,7 +61,9 @@ body{
     bottom: -100px;
     /*transition: background-color 0.6s ease;*/
   }
-
+ .opacity {
+    opacity: 80%;
+ }
 
 
 
