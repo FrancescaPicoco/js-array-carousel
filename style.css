@@ -12,7 +12,6 @@ body{
     width: 70vw;
     height: 70vh;
     transform: translate(20% , 20%);
-    background-color: whitesmoke;
 }
 #picsHere img{
     width: 100%;
@@ -41,11 +40,11 @@ body{
   }
   #previous{
     top: 0;
-    right: 50%;
+    right: 55%;
   }
   #next{
     bottom: 0;
-    right:50%;
+    right:55%;
   }
   .roundBtn {
     cursor: pointer;
@@ -55,14 +54,13 @@ body{
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    bottom:-80px;
     border: none;
     position: relative;
     bottom: -100px;
-    /*transition: background-color 0.6s ease;*/
+    right: 5%;
   }
  .opacity {
-    opacity: 80%;
+    opacity: 20%; 
  }
 
 
@@ -74,11 +72,10 @@ body{
   #picsHere{
     width: 80%;
     height: 100%;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
   }
   #right{
     width:20%;
     height: 100%;
-    background-color: aquamarine;
   }
   
